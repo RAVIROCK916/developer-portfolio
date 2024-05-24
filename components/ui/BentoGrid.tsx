@@ -23,7 +23,7 @@ import {
   SiTailwindcss,
 } from "react-icons/si";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 export const BentoGrid = ({
   className,
@@ -97,32 +97,26 @@ export const BentoGridItem = ({
     setCopied(true);
   };
 
-  const containerHeight = 164
+  const containerHeight = 164;
+  const containerTransition = {
+    y: {
+      repeat: Infinity,
+      repeatType: "loop",
+      duration: 20, // Adjust duration to control the speed
+      ease: "linear",
+    },
+  };
   const leftContainerVariants = {
     animate: {
       y: [0, -containerHeight], // Adjust the -2000 to the height of your container
-      transition: {
-        y: {
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 5, // Adjust duration to control the speed
-          ease: 'linear'
-        }
-      }
-    }
+      transition: containerTransition,
+    },
   };
   const rightContainerVariants = {
     animate: {
       y: [0, containerHeight], // Adjust the -2000 to the height of your container
-      transition: {
-        y: {
-          repeat: Infinity,
-          repeatType: 'loop',
-          duration: 5, // Adjust duration to control the speed
-          ease: 'linear'
-        }
-      }
-    }
+      transition: containerTransition,
+    },
   };
 
   return (
@@ -196,11 +190,15 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="absolute -right-3 flex w-fit gap-1 lg:-right-2 lg:gap-5">
               {/* tech stack lists */}
-              <motion.div className="flex flex-col gap-3 md:gap-3 lg:gap-4" variants={leftContainerVariants} animate="animate">
+              <motion.div
+                className="flex flex-col gap-3 md:gap-3 lg:gap-4"
+                variants={leftContainerVariants}
+                animate="animate"
+              >
                 {leftLists.map((item, i) => (
                   <span
-                    key={i+item.name}
-                    className="flex justify-center items-center gap-2 rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:opacity-100"
+                    key={i + item.name}
+                    className="flex items-center justify-center gap-2 rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:opacity-100"
                   >
                     {item.name}
                     <span className="text-lg">{item.icon}</span>
@@ -208,8 +206,8 @@ export const BentoGridItem = ({
                 ))}
                 {leftLists.map((item, i) => (
                   <span
-                    key={i+leftLists.length}
-                    className="flex justify-center items-center gap-2 rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:opacity-100"
+                    key={i + leftLists.length}
+                    className="flex items-center justify-center gap-2 rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:opacity-100"
                   >
                     {item.name}
                     <span className="text-lg">{item.icon}</span>
@@ -217,12 +215,16 @@ export const BentoGridItem = ({
                 ))}
                 {/* <span className="rounded-lg bg-[#10132E] px-3 py-4  text-center lg:px-3 lg:py-4"></span> */}
               </motion.div>
-              <motion.div className="flex flex-col gap-3 md:gap-3 lg:gap-4" variants={rightContainerVariants} animate="animate">
+              <motion.div
+                className="flex flex-col gap-3 md:gap-3 lg:gap-4"
+                variants={rightContainerVariants}
+                animate="animate"
+              >
                 <span className="rounded-lg bg-[#10132E] px-3 py-4  text-center lg:px-3 lg:py-4"></span>
                 {rightLists.map((item, i) => (
                   <span
-                    key={i+item.name}
-                    className="flex justify-center items-center gap-2 rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 
+                    key={i + item.name}
+                    className="flex items-center justify-center gap-2 rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 
                     lg:px-3 lg:py-4 lg:text-xs lg:opacity-100"
                   >
                     {item.name}
@@ -231,8 +233,8 @@ export const BentoGridItem = ({
                 ))}
                 {rightLists.map((item, i) => (
                   <span
-                    key={i+rightLists.length}
-                    className="flex justify-center items-center gap-2 rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 
+                    key={i + rightLists.length}
+                    className="flex items-center justify-center gap-2 rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 
                     lg:px-3 lg:py-4 lg:text-xs lg:opacity-100"
                   >
                     {item.name}
