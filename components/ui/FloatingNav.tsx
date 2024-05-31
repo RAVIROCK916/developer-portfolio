@@ -71,7 +71,7 @@ export const FloatingNav = ({
             onClick={() => setActiveIdx(idx)}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="hidden text-sm sm:block">{navItem.name}</span>
+            <span className="!cursor-pointer text-sm">{navItem.name}</span>
             {activeIdx === idx && (
               <span className="absolute inset-x-0 -bottom-px mx-auto h-px w-1/2 bg-gradient-to-r from-transparent via-blue-500  to-transparent" />
             )}
