@@ -72,25 +72,25 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Chat App",
+    des: "A real-time chat app built with React.js. It allows users to send and receive messages in real-time.",
+    img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://ravirock916.github.io/Chat-Web-App/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Mello Studio - Music Listening App",
+    des: "A music app that allows users to create playlists, add songs, and listen to their favorite tracks.",
+    img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Movie Mania - Movie Website",
+    des: "A movie watching website that allows users to browse and watch movies from different genres.",
+    img: "/p3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
@@ -107,31 +107,35 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ravi is a true master of web development. His ability to craft visually stunning and highly functional websites is unmatched. I wholeheartedly recommend him for any project that demands a perfect fusion of design and functionality.",
+    name: "Dara Yaswanth",
+    title: "Senior Systems Engineer at Amazon",
+    img: "/Dara.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Ravi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ravi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ravi is the ideal partner.",
+    name: "Paul Nikhil",
+    title: "Backend Developer at Gojek",
+    img: "/Paul.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I can attest to Ravi's exceptional grasp of the principles that govern our field. His meticulous attention to detail and profound comprehension of the intricate nuances involved in designing and developing complex web applications are truly invaluable assets. Ravi's expertise ensures that any project he undertakes seamlessly blends coding prowess with cutting-edge technologies, resulting in outstanding user experiences.",
+    name: "Natani Raghunandan",
+    title: "Mechanical Engineer at L&T",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "With a deep understanding of both front-end and back-end technologies, Emily is a true full stack engineer. Her ability to seamlessly integrate user interfaces with robust server-side logic makes her an invaluable asset. She excels at crafting efficient and scalable solutions, ensuring a smooth and engaging experience for end-users.",
+    name: "Aravind Pedapudi",
+    title: "Cyber Security Engineer at Havells",
+    img: "/Aravind.jpg",
   },
+
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ravi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ravi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ravi is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -173,23 +177,23 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Design Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Web Dev Intern",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
+    title: "Associate Solution Leader",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
@@ -205,13 +209,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/RaviRock916",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/RaviRock916",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/ravi-teja-pedapudi-a546a5152/",
   },
 ];

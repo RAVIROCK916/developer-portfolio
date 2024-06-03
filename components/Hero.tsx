@@ -22,8 +22,8 @@ const Hero = () => {
          *  UI: grid
          */}
         <div
-          className="dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2] absolute left-0 top-0 flex
-       h-screen w-full items-center justify-center bg-white dark:bg-black-100"
+          className="absolute left-0 top-0 flex h-screen w-full
+       items-center justify-center bg-white bg-grid-black-100/[0.2] dark:bg-black-100 dark:bg-grid-white/[0.03]"
         >
           {/* Radial gradient for the container to give a faded look */}
           <div
@@ -45,13 +45,13 @@ const Hero = () => {
             <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
               Hi! I&apos;m Ravi Teja, a fullstack Developer based in India.
             </p>
-            <a href="#about">
-            <MagicButton
-              title="View my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+            <a href="#projects">
+              <MagicButton
+                title="View my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
           </div>
         </div>
       </div>
