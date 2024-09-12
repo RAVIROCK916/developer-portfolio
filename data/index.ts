@@ -72,7 +72,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Chat App",
+    title: "Talkative - Chat App",
     des: "A real-time chat app built with React.js. It allows users to send and receive messages in real-time.",
     img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -83,7 +83,7 @@ export const projects = [
     title: "Mello Studio - Music Listening App",
     des: "A music app that allows users to create playlists, add songs, and listen to their favorite tracks.",
     img: "/p2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "Movie Mania - Movie Website",
     des: "A movie watching website that allows users to browse and watch movies from different genres.",
     img: "/p3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
@@ -114,7 +114,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Collaborating with Ravi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ravi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ravi is the ideal partner.",
+      "Collaborating with Ravi Teja was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ravi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ravi is the ideal partner.",
     name: "Paul Nikhil",
     title: "Backend Developer at Gojek",
     img: "/Paul.jpg",
@@ -124,10 +124,11 @@ export const testimonials = [
       "I can attest to Ravi's exceptional grasp of the principles that govern our field. His meticulous attention to detail and profound comprehension of the intricate nuances involved in designing and developing complex web applications are truly invaluable assets. Ravi's expertise ensures that any project he undertakes seamlessly blends coding prowess with cutting-edge technologies, resulting in outstanding user experiences.",
     name: "Natani Raghunandan",
     title: "Mechanical Engineer at L&T",
+    img: "/Raghu.jpg",
   },
   {
     quote:
-      "With a deep understanding of both front-end and back-end technologies, Emily is a true full stack engineer. Her ability to seamlessly integrate user interfaces with robust server-side logic makes her an invaluable asset. She excels at crafting efficient and scalable solutions, ensuring a smooth and engaging experience for end-users.",
+      "With a deep understanding of both front-end and back-end technologies, Ravi Teja is a true full stack engineer. His ability to seamlessly integrate user interfaces with robust server-side logic makes him an invaluable asset. She excels at crafting efficient and scalable solutions, ensuring a smooth and engaging experience for end-users.",
     name: "Aravind Pedapudi",
     title: "Cyber Security Engineer at Havells",
     img: "/Aravind.jpg",
