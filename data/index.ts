@@ -96,9 +96,9 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Bazaar - E-Commerce Website",
+    des: "An e-commerce store that allows users to browse and buy products from different categories.",
+    img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
@@ -128,7 +128,7 @@ export const testimonials = [
   },
   {
     quote:
-      "With a deep understanding of both front-end and back-end technologies, Ravi Teja is a true full stack engineer. His ability to seamlessly integrate user interfaces with robust server-side logic makes him an invaluable asset. She excels at crafting efficient and scalable solutions, ensuring a smooth and engaging experience for end-users.",
+      "With a deep understanding of both front-end and back-end technologies, Ravi Teja is a true full stack engineer. His ability to seamlessly integrate user interfaces with robust server-side logic makes him an invaluable asset. He excels at crafting efficient and scalable solutions, ensuring a smooth and engaging experience for end-users.",
     name: "Aravind Pedapudi",
     title: "Cyber Security Engineer at Havells",
     img: "/Aravind.jpg",

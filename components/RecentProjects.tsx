@@ -5,6 +5,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import Link from "next/link";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -31,10 +32,12 @@ const RecentProjects = () => {
                   >
                     <img src="/bg.png" alt="bgimg" />
                   </div>
-                  <img
+                  <Image
                     src={item.img}
                     alt="project cover"
-                    className="absolute bottom-0 z-10"
+                    width={500}
+                    height={500}
+                    className="absolute bottom-0 z-10 object-cover"
                   />
                 </div>
 

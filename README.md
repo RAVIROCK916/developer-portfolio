@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Developer Portfolio
+
+Welcome to my developer portfolio! This project showcases my skills, projects, and experience as a web developer.
+
+## Features
+
+- Project showcase
+- Skills and tech stack display
+- About me section
+- Contact information
+- Responsive design
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/yourusername/developer-portfolio.git
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Navigate to the project directory:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   cd developer-portfolio
+   ```
 
-## Learn More
+3. Install dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Run the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the portfolio.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To customize this portfolio for your own use:
+
+1. Update the project data in `data/index.ts`
+2. Replace images in the `public` folder with your own
+3. Modify the components in the `components` folder to fit your needs
+
+## Deployment
+
+This project can be easily deployed on Vercel. For other deployment options, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
+
+## Contact
+
+For any inquiries or collaborations, please reach out to me at:
+
+- Email: prt15@itbbs.ac.in
+- LinkedIn: [www.linkedin.com/in/ravi-teja-pedapudi-a546a5152/](https://www.linkedin.com/in/ravi-teja-pedapudi-a546a5152/)
+- GitHub: [github.com/RaviRock916](https://github.com/RaviRock916)
+
+Thank you for visiting my portfolio!
