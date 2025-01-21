@@ -21,11 +21,11 @@ const RecentProjects = () => {
             className="flex h-[25rem] w-[80vw] items-center justify-center sm:w-96 lg:min-h-[32.5rem]"
           >
             <PinContainer
-              title="/ui.aceternity.com"
+              title={item.linkTitle}
               href="https://twitter.com/mannupaaji"
             >
               <Link href={item.link} target="_blank">
-                <div className="relative mb-10 flex h-[20vh] w-[80vw] items-center justify-center overflow-hidden sm:w-96 lg:h-[30vh]">
+                <div className="relative mb-10 flex aspect-video w-[80vw] items-center justify-center overflow-hidden rounded-xl sm:w-96">
                   <div
                     className="relative h-full w-full overflow-hidden lg:rounded-3xl"
                     style={{ backgroundColor: "#13162D" }}
@@ -37,7 +37,7 @@ const RecentProjects = () => {
                     alt="project cover"
                     width={500}
                     height={500}
-                    className="absolute bottom-0 z-10 object-cover"
+                    className="absolute bottom-0 z-10 h-full w-full object-cover"
                   />
                 </div>
 
