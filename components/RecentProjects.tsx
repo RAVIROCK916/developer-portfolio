@@ -25,7 +25,7 @@ const RecentProjects = () => {
               href="https://twitter.com/mannupaaji"
             >
               <Link href={item.link} target="_blank">
-                <div className="relative mb-10 flex aspect-video w-[80vw] items-center justify-center overflow-hidden rounded-xl sm:w-96">
+                <div className="relative mb-10 flex aspect-video w-[80vw] items-center justify-center overflow-hidden sm:w-96">
                   <div
                     className="relative h-full w-full overflow-hidden lg:rounded-3xl"
                     style={{ backgroundColor: "#13162D" }}

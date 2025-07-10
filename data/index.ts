@@ -71,6 +71,15 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 0,
+    title: "Chronus - Task Management Platform",
+    des: "A platform for managing tasks and projects efficiently.",
+    img: "/p-0.png",
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/shadcn.png"],
+    link: "https://chronus-lake.vercel.app/",
+    linkTitle: "chronus-lake.vercel.app",
+  },
+  {
     id: 1,
     title: "EX - Social Media Platform",
     des: "A social media platform that allows users to create profiles, connect with friends, and share posts.",
